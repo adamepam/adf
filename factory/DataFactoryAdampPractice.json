@@ -1,0 +1,9 @@
+{
+	"name": "DataFactoryAdampPractice",
+	"location": "germanywestcentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "75bc508e-fdc3-4a5d-9aa1-8c5a5ed13c1e",
+		"tenantId": "b41b72d0-4e9f-4c26-8a69-f949f367c91d"
+	}
+}
