@@ -1,0 +1,68 @@
+{
+	"name": "DelimitedText1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "stops.txt",
+				"container": "bkkdata"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "stop_id",
+				"type": "String"
+			},
+			{
+				"name": "stop_name",
+				"type": "String"
+			},
+			{
+				"name": "stop_lat",
+				"type": "String"
+			},
+			{
+				"name": "stop_lon",
+				"type": "String"
+			},
+			{
+				"name": "stop_code",
+				"type": "String"
+			},
+			{
+				"name": "location_type",
+				"type": "String"
+			},
+			{
+				"name": "location_sub_type",
+				"type": "String"
+			},
+			{
+				"name": "parent_station",
+				"type": "String"
+			},
+			{
+				"name": "wheelchair_boarding",
+				"type": "String"
+			},
+			{
+				"name": "stop_direction",
+				"type": "String"
+			},
+			{
+				"name": "merge_stops_in_station",
+				"type": "String"
+			}
+		]
+	}
+}
